@@ -1,3 +1,11 @@
+bash-config (20.07.01) mx; urgency=medium
+
+  [ Nite Coder ]
+  * new release
+  * revised alias, prompt building, ui improvements 
+
+ -- Dolphin Oracle <dolphin@littlebyte>  Wed, 08 Jul 2020 19:37:05 -0400
+
 bash-config (19.10.09) mx; urgency=medium
 
   * icon change in app 
