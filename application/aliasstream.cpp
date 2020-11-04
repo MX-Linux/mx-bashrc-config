@@ -107,11 +107,13 @@ void AliasStream::remove(const Alias &alias)
     SCOPE_TRACKER;
     QString templateAliasRegex("(alias) (%1)=(\"|')(%2)(\\3)");
     QString templateAliasText("alias %1='%2'");
-    if(m_source->contains(QRegularExpression(templateAliasRegex.arg(alias.alias()).arg(alias.command().replace('\\', "\\\\")))))
+#define E(i) escapeRegexCharacters(i)
+    if(m_source->contains(QRegularExpression(templateAliasRegex.arg(E(alias.alias())).arg(E(alias.command().replace('\\', "\\\\"))))))
     {
-        m_source->remove(QRegularExpression(templateAliasRegex.arg(alias.alias()).arg(alias.command().replace('\\', "\\\\"))));
-        DEBUG << "Did detect and remove alias";
+        m_source->remove(QRegularExpression(templateAliasRegex.arg(E(alias.alias())).arg(E(alias.command().replace('\\', "\\\\")))));
+        DEBUG << "Did detect and remove alias" << alias.alias();
     }
+#undef E
 }
 
 void AliasStream::remove(const QList<Alias> &alias)
@@ -151,29 +153,11 @@ Alias::Alias()
     SCOPE_TRACKER;
 }
 
-Alias::Alias(const QString &alias, const QString &command)
+Alias::Alias(QString alias, QString command)
 {
     SCOPE_TRACKER;
     m_alias = alias;
     m_command = command;
-}
-
-Alias::Alias(const Alias &other)
-{
-    SCOPE_TRACKER;
-    *this = other;
-}
-
-Alias &Alias::operator=(const Alias &other)
-{
-    SCOPE_TRACKER;
-    m_alias = other.m_alias;
-    m_command = other.m_command;
-    m_start = other.m_start;
-    m_end = other.m_end;
-    m_inBashrc = other.m_inBashrc;
-    m_length = other.m_length;
-    return *this;
 }
 
 bool Alias::operator ==(const Alias &other)
