@@ -33,7 +33,10 @@ SOURCES += main.cpp\
     aliastab.cpp \
     aliasstream.cpp \
     global.cpp \
-    othertab.cpp
+    othertab.cpp \
+    datetimeformatting.cpp \
+    fuzzybashstream.cpp \
+    dateformatpreview.cpp
 
 HEADERS  += window.h \
     buffer.h \
@@ -43,7 +46,10 @@ HEADERS  += window.h \
     prompttab.h \
     aliastab.h \
     aliasstream.h \
-    othertab.h
+    othertab.h \
+    datetimeformatting.h \
+    fuzzybashstream.h \
+    dateformatpreview.h
 
 FORMS    += \
     aliastab.ui \
