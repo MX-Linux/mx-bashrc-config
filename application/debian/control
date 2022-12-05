@@ -8,6 +8,6 @@ Vcs-Git: git://github.com/mxlinux/mx-bashrc-config.git
 
 Package: bash-config
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}, mx-viewer | antix-viewer
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Bash Config
  Provides a gui for configuring bash aliases and prompt theming
