@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[antix-development.mx-bashrc-config-desktop]
+file_filter = po/mx-bashrc-config-desktop_<lang>.po
+source_file = mx-bashrc-config-desktop.pot
+source_lang = en
+type = po

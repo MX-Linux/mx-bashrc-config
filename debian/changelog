@@ -1,3 +1,9 @@
+bash-config (23.03.01) mx; urgency=medium
+
+  * update translations 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 08 Mar 2023 22:38:41 -0500
+
 bash-config (20.08.02) mx; urgency=medium
 
   * put segfault fix back 
