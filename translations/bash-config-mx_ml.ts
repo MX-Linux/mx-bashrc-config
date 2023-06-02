@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ml">
 <context>
     <name>AliasTab</name>
     <message>
         <location filename="../aliastab.ui" line="71"/>
         <source>Add</source>
-        <translation>Προσθήκη</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../aliastab.ui" line="82"/>
         <source>Remove</source>
-        <translation>Αφαίρεση</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -17,12 +17,12 @@
     <message>
         <location filename="../othertab.ui" line="35"/>
         <source>History</source>
-        <translation>Ιστορικό</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="41"/>
         <source>Custom</source>
-        <translation>προσαρμόσῃ</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="63"/>
@@ -37,17 +37,17 @@
     <message>
         <location filename="../othertab.ui" line="84"/>
         <source>Edit</source>
-        <translation>Επεξεργασία</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="97"/>
         <source>Add</source>
-        <translation>Προσθήκη</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="108"/>
         <source>Remove</source>
-        <translation>Αφαίρεση</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
         <source>Title Text</source>
-        <translation>Κείμενο Τίτλου</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="429"/>
@@ -135,27 +135,27 @@
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
         <source>Edit</source>
-        <translation>Επεξεργασία</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="478"/>
         <source>Add</source>
-        <translation>Προσθήκη</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="501"/>
         <source>Remove</source>
-        <translation>Αφαίρεση</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="518"/>
         <source>Up</source>
-        <translation>σε λειτουργία</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="535"/>
         <source>Down</source>
-        <translation>Μη λειτουργία</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -181,12 +181,12 @@
     <message>
         <location filename="../window_fix.ui" line="35"/>
         <source>About</source>
-        <translation>Περί</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="46"/>
         <source>Help</source>
-        <translation>Βοήθεια</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="85"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../window_fix.ui" line="88"/>
         <source>Apply</source>
-        <translation>Εφαρμογή</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="99"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../window_fix.ui" line="102"/>
         <source>Close</source>
-        <translation>Κλείσιμο</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window.cpp" line="48"/>

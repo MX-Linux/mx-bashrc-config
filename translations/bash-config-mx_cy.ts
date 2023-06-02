@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="cy">
 <context>
     <name>AliasTab</name>
     <message>
         <location filename="../aliastab.ui" line="71"/>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../aliastab.ui" line="82"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -17,12 +17,12 @@
     <message>
         <location filename="../othertab.ui" line="35"/>
         <source>History</source>
-        <translation>Verlauf</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="41"/>
         <source>Custom</source>
-        <translation>Angepasst</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="63"/>
@@ -37,17 +37,17 @@
     <message>
         <location filename="../othertab.ui" line="84"/>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="97"/>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="108"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -100,12 +100,12 @@
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
         <source>Time Format</source>
-        <translation>Zeitformat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="267"/>
         <source>Date Format</source>
-        <translation>Datumsformat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="315"/>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
         <source>Title Text</source>
-        <translation>Titel Text</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="429"/>
@@ -135,27 +135,27 @@
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
         <source>Edit</source>
-        <translation>Bearbeiten</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="478"/>
         <source>Add</source>
-        <translation>Hinzufügen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="501"/>
         <source>Remove</source>
-        <translation>Entfernen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="518"/>
         <source>Up</source>
-        <translation>Hoch</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="535"/>
         <source>Down</source>
-        <translation>Herunter</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -163,17 +163,17 @@
     <message>
         <location filename="../prompttab.cpp" line="543"/>
         <source>Foreground Color</source>
-        <translation>Vordergrundfarbe</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab.cpp" line="544"/>
         <source>Background Color</source>
-        <translation>Hintergrundfarbe</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab.cpp" line="545"/>
         <source>Bold</source>
-        <translation>Fett</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -181,12 +181,12 @@
     <message>
         <location filename="../window_fix.ui" line="35"/>
         <source>About</source>
-        <translation>Über</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="46"/>
         <source>Help</source>
-        <translation>Hilfe</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="85"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../window_fix.ui" line="88"/>
         <source>Apply</source>
-        <translation>Anwenden</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="99"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../window_fix.ui" line="102"/>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window.cpp" line="48"/>

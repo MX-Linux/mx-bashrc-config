@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ceb">
 <context>
     <name>AliasTab</name>
     <message>
         <location filename="../aliastab.ui" line="71"/>
         <source>Add</source>
-        <translation>Přidat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../aliastab.ui" line="82"/>
         <source>Remove</source>
-        <translation>Odstranit</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -17,7 +17,7 @@
     <message>
         <location filename="../othertab.ui" line="35"/>
         <source>History</source>
-        <translation>Historie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="41"/>
@@ -37,17 +37,17 @@
     <message>
         <location filename="../othertab.ui" line="84"/>
         <source>Edit</source>
-        <translation>Upravit</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="97"/>
         <source>Add</source>
-        <translation>Přidat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../othertab.ui" line="108"/>
         <source>Remove</source>
-        <translation>Odstranit</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -80,17 +80,17 @@
     <message>
         <location filename="../prompttab_fix.ui" line="180"/>
         <source>Use Bold Lines</source>
-        <translation>Použít silné čáry</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="187"/>
         <source>No Colors(Overrides All Other Color Options)</source>
-        <translation>Bez barev (změní všechna ostatní nastavení barev)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="194"/>
         <source>Use Parentheses Instead Of Square Brackets</source>
-        <translation>Použij kulaté závorky namísto hranatých</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="201"/>
@@ -100,17 +100,17 @@
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
         <source>Time Format</source>
-        <translation>Formát času</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="267"/>
         <source>Date Format</source>
-        <translation>Formát data</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="315"/>
         <source>Right Margin</source>
-        <translation>Pravý okraj</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="351"/>
@@ -135,27 +135,27 @@
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
         <source>Edit</source>
-        <translation>Upravit</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="478"/>
         <source>Add</source>
-        <translation>Přidat</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="501"/>
         <source>Remove</source>
-        <translation>Odstranit</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="518"/>
         <source>Up</source>
-        <translation>Nahoru</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="535"/>
         <source>Down</source>
-        <translation>Dolů</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -163,12 +163,12 @@
     <message>
         <location filename="../prompttab.cpp" line="543"/>
         <source>Foreground Color</source>
-        <translation>Barva popředí</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab.cpp" line="544"/>
         <source>Background Color</source>
-        <translation>Barva pozadí</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab.cpp" line="545"/>
@@ -181,12 +181,12 @@
     <message>
         <location filename="../window_fix.ui" line="35"/>
         <source>About</source>
-        <translation>O aplikaci</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="46"/>
         <source>Help</source>
-        <translation>Nápověda</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="85"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../window_fix.ui" line="88"/>
         <source>Apply</source>
-        <translation>Použít</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window_fix.ui" line="99"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../window_fix.ui" line="102"/>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../window.cpp" line="48"/>
@@ -218,7 +218,7 @@
         <location filename="../window.cpp" line="264"/>
         <location filename="../window.cpp" line="268"/>
         <source>Bash Config</source>
-        <translation>Bash Konfigurace</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>
