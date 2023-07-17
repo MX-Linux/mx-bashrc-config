@@ -55,7 +55,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="44"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Change what gives you your prompt.&lt;/p&gt;&lt;p&gt;Default - Use what prompt you had before.&lt;/p&gt;&lt;p&gt;Fancy Prompt - Uses the MX Fancy Prompt utility&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Eingabeaufforderung ändern.&lt;/p&gt;&lt;p&gt;Standard - Bisher genutzte Eingabeaufforderung wählen.&lt;/p&gt;&lt;p&gt;Fancy Prompt - MX Fancy Eingabeaufforderung nutzen&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="152"/>
@@ -95,7 +95,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="201"/>
         <source>Make the Larger Prompts Smaller Elsewhere</source>
-        <translation type="unfinished"/>
+        <translation>Größere Eingabebefehle an anderer Stelle verkleinern</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
@@ -115,7 +115,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="351"/>
         <source>Extra Newlines Before Prompt</source>
-        <translation type="unfinished"/>
+        <translation>Zeilenumbruch vor Eingabebefehl</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="380"/>
