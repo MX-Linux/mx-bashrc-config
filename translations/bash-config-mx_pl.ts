@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="ml">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="pl">
 <context>
     <name>AliasTab</name>
     <message>
         <location filename="../aliastab.ui" line="71"/>
         <source>Add</source>
-        <translation type="unfinished"/>
+        <translation>Dodaj</translation>
     </message>
     <message>
         <location filename="../aliastab.ui" line="82"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Usuń</translation>
     </message>
 </context>
 <context>
@@ -17,37 +17,37 @@
     <message>
         <location filename="../othertab.ui" line="35"/>
         <source>History</source>
-        <translation type="unfinished"/>
+        <translation>Historia</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="41"/>
         <source>Custom</source>
-        <translation type="unfinished"/>
+        <translation>Wybór użytkownika</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="63"/>
         <source>Infinite</source>
-        <translation type="unfinished"/>
+        <translation>Nieskończony</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="75"/>
         <source>Executable Paths</source>
-        <translation type="unfinished"/>
+        <translation>Ścieżki wykonywalne</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="84"/>
         <source>Edit</source>
-        <translation type="unfinished"/>
+        <translation>Edytuj</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="97"/>
         <source>Add</source>
-        <translation type="unfinished"/>
+        <translation>Dodaj</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="108"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Usuń</translation>
     </message>
 </context>
 <context>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
         <source>Title Text</source>
-        <translation type="unfinished"/>
+        <translation>Tekst tytułu</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="429"/>
@@ -135,17 +135,17 @@
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
         <source>Edit</source>
-        <translation type="unfinished"/>
+        <translation>Edytuj</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="478"/>
         <source>Add</source>
-        <translation type="unfinished"/>
+        <translation>Dodaj</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="501"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>Usuń</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="518"/>
@@ -181,12 +181,12 @@
     <message>
         <location filename="../window_fix.ui" line="35"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>O programie</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="46"/>
         <source>Help</source>
-        <translation type="unfinished"/>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="85"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../window_fix.ui" line="88"/>
         <source>Apply</source>
-        <translation type="unfinished"/>
+        <translation>Zastosuj</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="99"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../window_fix.ui" line="102"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>Zamknij</translation>
     </message>
     <message>
         <location filename="../window.cpp" line="48"/>
@@ -218,7 +218,7 @@
         <location filename="../window.cpp" line="264"/>
         <location filename="../window.cpp" line="268"/>
         <source>Bash Config</source>
-        <translation type="unfinished"/>
+        <translation>Konfiguracja Basha</translation>
     </message>
 </context>
 </TS>

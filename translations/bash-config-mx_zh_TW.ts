@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="bn">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="zh_TW">
 <context>
     <name>AliasTab</name>
     <message>
         <location filename="../aliastab.ui" line="71"/>
         <source>Add</source>
-        <translation type="unfinished"/>
+        <translation>增加</translation>
     </message>
     <message>
         <location filename="../aliastab.ui" line="82"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>刪除</translation>
     </message>
 </context>
 <context>
@@ -17,7 +17,7 @@
     <message>
         <location filename="../othertab.ui" line="35"/>
         <source>History</source>
-        <translation type="unfinished"/>
+        <translation>歷史</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="41"/>
@@ -37,17 +37,17 @@
     <message>
         <location filename="../othertab.ui" line="84"/>
         <source>Edit</source>
-        <translation type="unfinished"/>
+        <translation>編輯</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="97"/>
         <source>Add</source>
-        <translation type="unfinished"/>
+        <translation>增加</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="108"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>刪除</translation>
     </message>
 </context>
 <context>
@@ -135,17 +135,17 @@
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
         <source>Edit</source>
-        <translation type="unfinished"/>
+        <translation>編輯</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="478"/>
         <source>Add</source>
-        <translation type="unfinished"/>
+        <translation>增加</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="501"/>
         <source>Remove</source>
-        <translation type="unfinished"/>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="518"/>
@@ -163,7 +163,7 @@
     <message>
         <location filename="../prompttab.cpp" line="543"/>
         <source>Foreground Color</source>
-        <translation type="unfinished"/>
+        <translation>前景顏色</translation>
     </message>
     <message>
         <location filename="../prompttab.cpp" line="544"/>
@@ -181,12 +181,12 @@
     <message>
         <location filename="../window_fix.ui" line="35"/>
         <source>About</source>
-        <translation type="unfinished"/>
+        <translation>關於</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="46"/>
         <source>Help</source>
-        <translation type="unfinished"/>
+        <translation>說明</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="85"/>
@@ -196,7 +196,7 @@
     <message>
         <location filename="../window_fix.ui" line="88"/>
         <source>Apply</source>
-        <translation type="unfinished"/>
+        <translation>使用</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="99"/>
@@ -206,7 +206,7 @@
     <message>
         <location filename="../window_fix.ui" line="102"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../window.cpp" line="48"/>

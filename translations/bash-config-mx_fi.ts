@@ -1,15 +1,15 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="fi">
 <context>
     <name>AliasTab</name>
     <message>
         <location filename="../aliastab.ui" line="71"/>
         <source>Add</source>
-        <translation>Dodaj</translation>
+        <translation>Lisää</translation>
     </message>
     <message>
         <location filename="../aliastab.ui" line="82"/>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>Poista</translation>
     </message>
 </context>
 <context>
@@ -37,17 +37,17 @@
     <message>
         <location filename="../othertab.ui" line="84"/>
         <source>Edit</source>
-        <translation>Edytuj</translation>
+        <translation>Muokkaa</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="97"/>
         <source>Add</source>
-        <translation>Dodaj</translation>
+        <translation>Lisää</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="108"/>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>Poista</translation>
     </message>
 </context>
 <context>
@@ -100,12 +100,12 @@
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
         <source>Time Format</source>
-        <translation type="unfinished"/>
+        <translation>Ajan muotoilu</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="267"/>
         <source>Date Format</source>
-        <translation type="unfinished"/>
+        <translation>Päivämäärän muotoilu</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="315"/>
@@ -125,7 +125,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
         <source>Title Text</source>
-        <translation>Tekst tytułu</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="429"/>
@@ -135,27 +135,27 @@
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
         <source>Edit</source>
-        <translation>Edytuj</translation>
+        <translation>Muokkaa</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="478"/>
         <source>Add</source>
-        <translation>Dodaj</translation>
+        <translation>Lisää</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="501"/>
         <source>Remove</source>
-        <translation>Usuń</translation>
+        <translation>Poista</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="518"/>
         <source>Up</source>
-        <translation type="unfinished"/>
+        <translation>Ylös</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="535"/>
         <source>Down</source>
-        <translation type="unfinished"/>
+        <translation>Alas</translation>
     </message>
 </context>
 <context>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../prompttab.cpp" line="544"/>
         <source>Background Color</source>
-        <translation type="unfinished"/>
+        <translation>Taustaväri</translation>
     </message>
     <message>
         <location filename="../prompttab.cpp" line="545"/>
@@ -181,32 +181,32 @@
     <message>
         <location filename="../window_fix.ui" line="35"/>
         <source>About</source>
-        <translation>O programie</translation>
+        <translation>Tietoja</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="46"/>
         <source>Help</source>
-        <translation>Pomoc</translation>
+        <translation>Ohje</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="85"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Applies Changes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Hyväksyy muutokset.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="88"/>
         <source>Apply</source>
-        <translation>Zastosuj</translation>
+        <translation>Hyväksy</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="99"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Closes the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sulkee sovelluksen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="102"/>
         <source>Close</source>
-        <translation>Zamknij</translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <location filename="../window.cpp" line="48"/>
@@ -218,7 +218,7 @@
         <location filename="../window.cpp" line="264"/>
         <location filename="../window.cpp" line="268"/>
         <source>Bash Config</source>
-        <translation>Konfiguracja Basha</translation>
+        <translation>Bash Config</translation>
     </message>
 </context>
 </TS>
