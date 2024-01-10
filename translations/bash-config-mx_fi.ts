@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="fi">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="fi">
 <context>
     <name>AliasTab</name>
     <message>
@@ -22,17 +24,17 @@
     <message>
         <location filename="../othertab.ui" line="41"/>
         <source>Custom</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="63"/>
         <source>Infinite</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="75"/>
         <source>Executable Paths</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="84"/>
@@ -55,47 +57,47 @@
     <message>
         <location filename="../prompttab_fix.ui" line="44"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Change what gives you your prompt.&lt;/p&gt;&lt;p&gt;Default - Use what prompt you had before.&lt;/p&gt;&lt;p&gt;Fancy Prompt - Uses the MX Fancy Prompt utility&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="152"/>
         <source>Make The Larger Prompts Smaller</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="159"/>
         <source>Muted Colors</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="166"/>
         <source>Disable Unicode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="173"/>
         <source>Use Double Lines</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="180"/>
         <source>Use Bold Lines</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="187"/>
         <source>No Colors(Overrides All Other Color Options)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="194"/>
         <source>Use Parentheses Instead Of Square Brackets</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="201"/>
         <source>Make the Larger Prompts Smaller Elsewhere</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
@@ -110,27 +112,27 @@
     <message>
         <location filename="../prompttab_fix.ui" line="315"/>
         <source>Right Margin</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="351"/>
         <source>Extra Newlines Before Prompt</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="380"/>
         <source>Prompt Text</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
         <source>Title Text</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="429"/>
         <source>Remove all newlines</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
@@ -163,7 +165,7 @@
     <message>
         <location filename="../prompttab.cpp" line="543"/>
         <source>Foreground Color</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab.cpp" line="544"/>
@@ -173,7 +175,7 @@
     <message>
         <location filename="../prompttab.cpp" line="545"/>
         <source>Bold</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -211,7 +213,7 @@
     <message>
         <location filename="../window.cpp" line="48"/>
         <source>An easy way to configure your ~/.bashrc and bash prompt</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../window.cpp" line="260"/>

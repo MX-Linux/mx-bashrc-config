@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="nl">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="nl">
 <context>
     <name>AliasTab</name>
     <message>
@@ -55,12 +57,12 @@
     <message>
         <location filename="../prompttab_fix.ui" line="44"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Change what gives you your prompt.&lt;/p&gt;&lt;p&gt;Default - Use what prompt you had before.&lt;/p&gt;&lt;p&gt;Fancy Prompt - Uses the MX Fancy Prompt utility&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="152"/>
         <source>Make The Larger Prompts Smaller</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="159"/>
@@ -95,7 +97,7 @@
     <message>
         <location filename="../prompttab_fix.ui" line="201"/>
         <source>Make the Larger Prompts Smaller Elsewhere</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
@@ -115,12 +117,12 @@
     <message>
         <location filename="../prompttab_fix.ui" line="351"/>
         <source>Extra Newlines Before Prompt</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="380"/>
         <source>Prompt Text</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>

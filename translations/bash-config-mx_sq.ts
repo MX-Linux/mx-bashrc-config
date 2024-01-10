@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sq">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="sq">
 <context>
     <name>AliasTab</name>
     <message>
@@ -60,12 +62,12 @@
     <message>
         <location filename="../prompttab_fix.ui" line="152"/>
         <source>Make The Larger Prompts Smaller</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="159"/>
         <source>Muted Colors</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="166"/>
@@ -90,12 +92,12 @@
     <message>
         <location filename="../prompttab_fix.ui" line="194"/>
         <source>Use Parentheses Instead Of Square Brackets</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="201"/>
         <source>Make the Larger Prompts Smaller Elsewhere</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
@@ -115,12 +117,12 @@
     <message>
         <location filename="../prompttab_fix.ui" line="351"/>
         <source>Extra Newlines Before Prompt</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="380"/>
         <source>Prompt Text</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
