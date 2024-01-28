@@ -163,17 +163,17 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../prompttab.cpp" line="543"/>
+        <location filename="../prompttab.cpp" line="546"/>
         <source>Foreground Color</source>
         <translation>Colore in primo piano</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="544"/>
+        <location filename="../prompttab.cpp" line="547"/>
         <source>Background Color</source>
         <translation>Colore di sfondo</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="545"/>
+        <location filename="../prompttab.cpp" line="548"/>
         <source>Bold</source>
         <translation>Grassetto</translation>
     </message>

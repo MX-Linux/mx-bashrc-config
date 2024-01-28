@@ -163,17 +163,17 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../prompttab.cpp" line="543"/>
+        <location filename="../prompttab.cpp" line="546"/>
         <source>Foreground Color</source>
         <translation>前景色</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="544"/>
+        <location filename="../prompttab.cpp" line="547"/>
         <source>Background Color</source>
         <translation>背景色</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="545"/>
+        <location filename="../prompttab.cpp" line="548"/>
         <source>Bold</source>
         <translation>太字</translation>
     </message>

@@ -24,17 +24,17 @@
     <message>
         <location filename="../othertab.ui" line="41"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Mukautettu</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="63"/>
         <source>Infinite</source>
-        <translation type="unfinished"></translation>
+        <translation>Ääretön</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="75"/>
         <source>Executable Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Suoritettavat polut</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="84"/>
@@ -57,47 +57,47 @@
     <message>
         <location filename="../prompttab_fix.ui" line="44"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Change what gives you your prompt.&lt;/p&gt;&lt;p&gt;Default - Use what prompt you had before.&lt;/p&gt;&lt;p&gt;Fancy Prompt - Uses the MX Fancy Prompt utility&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Muuta kehotetta sinulle sopivaksi.&lt;/p&gt;&lt;p&gt;Oletus - Käyttää aikaisempaa kehotetta.&lt;/p&gt;&lt;p&gt;Fancy Prompt - Käyttää MX Fancy Prompt apuohjelmaa&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="152"/>
         <source>Make The Larger Prompts Smaller</source>
-        <translation type="unfinished"></translation>
+        <translation>Pienennä isompia kehotteita</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="159"/>
         <source>Muted Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaimennetut värit</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="166"/>
         <source>Disable Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista Unicode käytöstä</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="173"/>
         <source>Use Double Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä kaksoisviivoja</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="180"/>
         <source>Use Bold Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä lihavoituja viivoja</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="187"/>
         <source>No Colors(Overrides All Other Color Options)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ei värejä (ohittaa kaikki muut väriasetukset)</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="194"/>
         <source>Use Parentheses Instead Of Square Brackets</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä sulkeita hakasulkeiden sijasta</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="201"/>
         <source>Make the Larger Prompts Smaller Elsewhere</source>
-        <translation type="unfinished"></translation>
+        <translation>Pienennä suuremmat kehotteet muualla</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
@@ -112,27 +112,27 @@
     <message>
         <location filename="../prompttab_fix.ui" line="315"/>
         <source>Right Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Oikea marginaali</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="351"/>
         <source>Extra Newlines Before Prompt</source>
-        <translation type="unfinished"></translation>
+        <translation>Ylimääräiset rivinvaihdot kehotetta </translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="380"/>
         <source>Prompt Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Kehotteen teksti</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
         <source>Title Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Otsikon teksti</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="429"/>
         <source>Remove all newlines</source>
-        <translation type="unfinished"></translation>
+        <translation>Poista kaikki rivinvaihdot</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
@@ -163,19 +163,19 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../prompttab.cpp" line="543"/>
+        <location filename="../prompttab.cpp" line="546"/>
         <source>Foreground Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Etualan väri</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="544"/>
+        <location filename="../prompttab.cpp" line="547"/>
         <source>Background Color</source>
         <translation>Taustaväri</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="545"/>
+        <location filename="../prompttab.cpp" line="548"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Lihavoitu</translation>
     </message>
 </context>
 <context>
@@ -213,7 +213,7 @@
     <message>
         <location filename="../window.cpp" line="48"/>
         <source>An easy way to configure your ~/.bashrc and bash prompt</source>
-        <translation type="unfinished"></translation>
+        <translation>Helppo tapa määrittää ~/.bashrc ja bash-kehote</translation>
     </message>
     <message>
         <location filename="../window.cpp" line="260"/>

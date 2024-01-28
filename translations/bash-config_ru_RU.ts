@@ -19,27 +19,27 @@
     <message>
         <location filename="../othertab.ui" line="35"/>
         <source>History</source>
-        <translation type="unfinished"></translation>
+        <translation>История</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="41"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Вручную</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="63"/>
         <source>Infinite</source>
-        <translation type="unfinished"></translation>
+        <translation>Бесконечно</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="75"/>
         <source>Executable Paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Пути исполняемых файлов</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="84"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Править</translation>
     </message>
     <message>
         <location filename="../othertab.ui" line="97"/>
@@ -57,87 +57,87 @@
     <message>
         <location filename="../prompttab_fix.ui" line="44"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Change what gives you your prompt.&lt;/p&gt;&lt;p&gt;Default - Use what prompt you had before.&lt;/p&gt;&lt;p&gt;Fancy Prompt - Uses the MX Fancy Prompt utility&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Смена источника подсказок.&lt;/p&gt; &lt;p&gt;По умолчанию — использовать те подсказки, которые были у вас раньше.&lt;/p&gt; &lt;p&gt;Модная подсказка — Использует инструмент MX Fancy Prompt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="152"/>
         <source>Make The Larger Prompts Smaller</source>
-        <translation type="unfinished"></translation>
+        <translation>Уменьшить размер больших подсказок</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="159"/>
         <source>Muted Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Приглушённые цвета</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="166"/>
         <source>Disable Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключить Юникод</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="173"/>
         <source>Use Double Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать двойные линии</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="180"/>
         <source>Use Bold Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать жирные линии</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="187"/>
         <source>No Colors(Overrides All Other Color Options)</source>
-        <translation type="unfinished"></translation>
+        <translation>Без цветов (переопределяет все прочие параметры цветов)</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="194"/>
         <source>Use Parentheses Instead Of Square Brackets</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать круглые скобки вместо квадратных</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="201"/>
         <source>Make the Larger Prompts Smaller Elsewhere</source>
-        <translation type="unfinished"></translation>
+        <translation>Уменьшить размер больших подсказок везде</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="225"/>
         <source>Time Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат времени</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="267"/>
         <source>Date Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат даты</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="315"/>
         <source>Right Margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Правое поле</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="351"/>
         <source>Extra Newlines Before Prompt</source>
-        <translation type="unfinished"></translation>
+        <translation>Дополнительные новые строки перед подсказкой</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="380"/>
         <source>Prompt Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст подсказки</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="409"/>
         <source>Title Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Текст заголовка</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="429"/>
         <source>Remove all newlines</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить все новые строки</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="456"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Править</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="478"/>
@@ -152,30 +152,30 @@
     <message>
         <location filename="../prompttab_fix.ui" line="518"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Вверх</translation>
     </message>
     <message>
         <location filename="../prompttab_fix.ui" line="535"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Вниз</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../prompttab.cpp" line="543"/>
+        <location filename="../prompttab.cpp" line="546"/>
         <source>Foreground Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет переднего плана</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="544"/>
+        <location filename="../prompttab.cpp" line="547"/>
         <source>Background Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет фона</translation>
     </message>
     <message>
-        <location filename="../prompttab.cpp" line="545"/>
+        <location filename="../prompttab.cpp" line="548"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Жирный</translation>
     </message>
 </context>
 <context>
@@ -193,7 +193,7 @@
     <message>
         <location filename="../window_fix.ui" line="85"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Applies Changes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Применяет настройки.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="88"/>
@@ -203,7 +203,7 @@
     <message>
         <location filename="../window_fix.ui" line="99"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Closes the application.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Закрывает приложение.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../window_fix.ui" line="102"/>
@@ -213,7 +213,7 @@
     <message>
         <location filename="../window.cpp" line="48"/>
         <source>An easy way to configure your ~/.bashrc and bash prompt</source>
-        <translation type="unfinished"></translation>
+        <translation>Простая настройка ваших подсказок ~/.bashrc и bash</translation>
     </message>
     <message>
         <location filename="../window.cpp" line="260"/>
