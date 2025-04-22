@@ -13,7 +13,7 @@ public:
 signals:
 
 public slots:
-    void setDateFormat(QString dateString);
+    void setDateFormat(const QString& dateString);
 private slots:
     void updateDisplayText();
 private:

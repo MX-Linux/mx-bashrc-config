@@ -25,7 +25,7 @@ ExecuteResult runCmd(QString cmd, bool interactive, bool onlyStdout)
 	return result;
 };
 
-QString randomString(int length, QString possible)
+QString randomString(int length, const QString& possible)
 {
 	QString result;
 	while (length > 0)
@@ -36,7 +36,7 @@ QString randomString(int length, QString possible)
 	return result;
 }
 
-QString bashInteractiveVariable(QString name)
+QString bashInteractiveVariable(const QString& name)
 {
 	QProcess proc;
 	QString uniqueString = randomString(64);

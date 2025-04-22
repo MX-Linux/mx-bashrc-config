@@ -11,8 +11,8 @@
 
 static QStringList __debug_start__ = {QString("noscope")};
 
-QString randomString(int length, QString possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789");
-QString bashInteractiveVariable(QString name);
+QString randomString(int length, const QString& possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789");
+QString bashInteractiveVariable(const QString& name);
 QString escapeRegexCharacters(QString input);
 
 struct BashrcSource

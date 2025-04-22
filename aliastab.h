@@ -20,9 +20,9 @@ class AliasTabTableWidgetItem : public QObject, public QTableWidgetItem
 	Q_OBJECT
   public:
 	AliasTabTableWidgetItem() = default;
-	AliasTabTableWidgetItem(QString text, QVariant info = QVariant());
+	AliasTabTableWidgetItem(const QString& text, const QVariant& info = QVariant());
 	~AliasTabTableWidgetItem();
-	AliasTabTableWidgetItem& setInfo(QVariant info);
+	AliasTabTableWidgetItem& setInfo(const QVariant& info);
     QVariant info();
 
   protected:

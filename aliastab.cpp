@@ -186,7 +186,7 @@ BashrcSource AliasTab::exec(const BashrcSource& data)
 	return rtn;
 }
 
-AliasTabTableWidgetItem::AliasTabTableWidgetItem(QString text, QVariant info)
+AliasTabTableWidgetItem::AliasTabTableWidgetItem(const QString& text, const QVariant& info)
 {
 	SCOPE_TRACKER;
 	setText(text);
@@ -199,7 +199,7 @@ AliasTabTableWidgetItem::~AliasTabTableWidgetItem()
 	//None
 }
 
-AliasTabTableWidgetItem& AliasTabTableWidgetItem::setInfo(QVariant info)
+AliasTabTableWidgetItem& AliasTabTableWidgetItem::setInfo(const QVariant& info)
 {
 	SCOPE_TRACKER;
 	m_info = info;
