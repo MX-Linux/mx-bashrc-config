@@ -19,7 +19,7 @@ class Buffer : public QObject
 		State& operator=(State& copy);
 		State& operator=(State&& move);
 		QString searchString();
-		State& setSearchString(const QString search);
+		State& setSearchString(const QString& search);
 		int state();
 		State& setState(int state);
 
@@ -34,7 +34,7 @@ class Buffer : public QObject
 	virtual ~Buffer() {}
 	Buffer& operator=(Buffer& copy);
 	Buffer& operator=(Buffer&& move);
-	Buffer& setSource(const QString source);
+	Buffer& setSource(const QString& source);
 	QString source();
 	Buffer& addState(State* state);
 	Buffer& addStates(QList<State*> states);

@@ -46,7 +46,7 @@ AliasTab::~AliasTab()
 	m_aliasWithCheckboxes.clear();
 }
 
-void AliasTab::setup(const BashrcSource data)
+void AliasTab::setup(const BashrcSource& data)
 {
 	SCOPE_TRACKER;
 	bool doSuggestions = true;
@@ -107,7 +107,7 @@ void AliasTab::setup(const BashrcSource data)
 	}
 }
 
-BashrcSource AliasTab::exec(const BashrcSource data)
+BashrcSource AliasTab::exec(const BashrcSource& data)
 {
 	SCOPE_TRACKER;
 

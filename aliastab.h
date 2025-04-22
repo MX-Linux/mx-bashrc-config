@@ -36,8 +36,8 @@ class AliasTab : public Tab
 	AliasTab();
 	virtual ~AliasTab();
 
-	void setup(const BashrcSource data);
-	BashrcSource exec(const BashrcSource data);
+	void setup(const BashrcSource& data) override;
+	BashrcSource exec(const BashrcSource& data) override;
 
   protected:
 	Ui::AliasTab* ui;

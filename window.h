@@ -29,7 +29,7 @@ class Window : public QWidget
 	explicit Window(QWidget* parent = nullptr);
 	~Window();
 	BashrcSource getSource();
-	void setSource(const BashrcSource data);
+	void setSource(const BashrcSource& data);
 	void closeEvent(QCloseEvent* event);
 	void writePositionSettings();
 	void readPositionSettings();
@@ -46,8 +46,8 @@ class Window : public QWidget
 		TabManager(Ui::Window* ui);
 		TabManager& addTabs(QList<Tab*> tabs);
 		TabManager& addTab(Tab* tab);
-		TabManager& setup(const BashrcSource source);
-		BashrcSource exec(const BashrcSource source);
+		TabManager& setup(const BashrcSource& source);
+		BashrcSource exec(const BashrcSource& source);
 
 	  protected:
 		QVector<Tab*> m_tabs;

@@ -127,7 +127,7 @@ PromptTab::~PromptTab()
 	DEBUG_EXIT(PromptTab::~PromptTab);
 }
 
-void PromptTab::setup(const BashrcSource data)
+void PromptTab::setup(const BashrcSource& data)
 {
 	DEBUG_ENTER(PromptTab::setup);
 	QString program = data.program;
@@ -276,7 +276,7 @@ void PromptTab::setup(const BashrcSource data)
 	DEBUG_EXIT(PromptTab::setup);
 }
 
-int rgbToAnsi256(QColor color)
+int rgbToAnsi256(const QColor& color)
 {
 	int ansi256 = 1;
 	// taken from: https://stackoverflow.com/questions/15682537/ansi-color-specific-rgb-sequence-bash
@@ -309,7 +309,7 @@ int rgbToAnsi256(QColor color)
 	return ansi256;
 }
 
-BashrcSource PromptTab::exec(const BashrcSource data)
+BashrcSource PromptTab::exec(const BashrcSource& data)
 {
 	DEBUG_ENTER(PromptTab::exec);
 	BashrcSource rtn;
@@ -469,7 +469,7 @@ end:
 	return rtn;
 }
 
-CustomPromptProperty::CustomPromptProperty(QString name, QObject* parent)
+CustomPromptProperty::CustomPromptProperty(const QString& name, QObject* parent)
 	: QObject(parent),
 	  m_name(name)
 {
@@ -481,7 +481,7 @@ CustomPromptProperty::~CustomPromptProperty()
 		delete m_widget;
 }
 
-ColorProperty::ColorProperty(QString name, QObject* parent)
+ColorProperty::ColorProperty(const QString& name, QObject* parent)
 	: CustomPromptProperty(name, parent)
 {
 	setWidget(new QWidget);
@@ -523,7 +523,7 @@ void ColorProperty::onBtnPress()
 	updateBtn();
 }
 
-CheckboxProperty::CheckboxProperty(QString name, QObject* parent)
+CheckboxProperty::CheckboxProperty(const QString& name, QObject* parent)
 	: CustomPromptProperty(name, parent)
 {
 	m_checkbox = new QCheckBox(name);
@@ -535,7 +535,7 @@ bool CheckboxProperty::good()
 	return true;
 }
 
-TextProperty::TextProperty(QString name, QObject* parent)
+TextProperty::TextProperty(const QString& name, QObject* parent)
 	: CustomPromptProperty(name, parent)
 {
 	m_editor = new QLineEdit();
@@ -547,7 +547,7 @@ bool TextProperty::good()
 	return true;
 }
 
-SimpleTextItem::SimpleTextItem(QString name)
+SimpleTextItem::SimpleTextItem(const QString& name)
 	: CustomPromptItem(name)
 {
 	//    m_defaultForegroundColor = backgroundColor();
@@ -670,7 +670,7 @@ QListWidgetItem* CustomItemSelectorDialog::getItem(QWidget* parent)
 	return nullptr;
 }
 
-CustomPromptItem::CustomPromptItem(QString name)
+CustomPromptItem::CustomPromptItem(const QString& name)
 {
 	setText(name);
 }
@@ -700,7 +700,7 @@ void CustomPromptItemEditor::edit(CustomPromptItem* item, QWidget* parent)
 		item->updateMembers();
 }
 
-SpecialItem::SpecialItem(QString name, SpecialItem::Type type)
+SpecialItem::SpecialItem(const QString& name, SpecialItem::Type type)
 	: SimpleTextItem(name)
 {
 	m_type = type;
@@ -739,7 +739,7 @@ void SpecialItem::refreshText()
 	}
 }
 
-CustomPromptProperty* CustomPromptItem::propertyByName(QString name) const
+CustomPromptProperty* CustomPromptItem::propertyByName(const QString& name) const
 {
 	for (CustomPromptProperty* prop : properties())
 	{
@@ -751,7 +751,7 @@ CustomPromptProperty* CustomPromptItem::propertyByName(QString name) const
 	return nullptr;
 }
 
-QString ColorProperty::stringify(QColor color) const
+QString ColorProperty::stringify(const QColor& color) const
 {
 	int ansi256 = 1;
 	// taken from: https://stackoverflow.com/questions/15682537/ansi-color-specific-rgb-sequence-bash
@@ -888,7 +888,7 @@ QString itemToXml(CustomPromptItem* item)
 	return output;
 }
 
-CustomPromptItem* xmlToItem(QString xml)
+CustomPromptItem* xmlToItem(const QString& xml)
 {
 	QXmlStreamReader xmlStream{xml};
 	while (xmlStream.readNextStartElement())
@@ -1144,7 +1144,7 @@ CustomPromptItem* xmlToItem(QString xml)
 	return nullptr;
 }
 
-TextItem::TextItem(QString name, QString text)
+TextItem::TextItem(const QString& name, const QString& text)
 	: SimpleTextItem(name)
 {
 	m_text = text;

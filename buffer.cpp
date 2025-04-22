@@ -51,7 +51,7 @@ Buffer& Buffer::operator=(Buffer&& move)
 	return *this;
 }
 
-Buffer& Buffer::setSource(const QString source)
+Buffer& Buffer::setSource(const QString& source)
 {
 	m_source = source;
 	return *this;
@@ -181,7 +181,7 @@ QString Buffer::State::searchString()
 	return m_search;
 }
 
-Buffer::State& Buffer::State::setSearchString(const QString search)
+Buffer::State& Buffer::State::setSearchString(const QString& search)
 {
 	SCOPE_TRACKER;
 	m_search = search;
