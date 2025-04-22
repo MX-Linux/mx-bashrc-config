@@ -1,5 +1,4 @@
-#ifndef BASHCOMMANDPARSER_H
-#define BASHCOMMANDPARSER_H
+#pragma once
 
 #include "fuzzybashstream.h"
 
@@ -16,5 +15,3 @@ private:
 	QString m_command;
 	QStringList m_args;
 };
-
-#endif // BASHCOMMANDPARSER_H

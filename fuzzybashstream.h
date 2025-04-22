@@ -1,5 +1,4 @@
-#ifndef FUZZYBASHSTREAM_H
-#define FUZZYBASHSTREAM_H
+#pragma once
 
 #include <QDebug>
 #include <QList>
@@ -179,5 +178,3 @@ QDebug operator<<(QDebug debug, const FuzzyBashStream::TokenRef& tr);
 QDebug operator<<(QDebug debug, const FuzzyBashStream::Token& tr);
 
 void variableAssignmentGrouper(FuzzyBashStream* stream, QList<FuzzyBashStream::Token>& tokens);
-
-#endif // FUZZYBASHSTREAM_H

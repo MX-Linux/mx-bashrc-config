@@ -1,5 +1,4 @@
-#ifndef TAB_H
-#define TAB_H
+#pragma once
 
 #include "global.h"
 #include <QIcon>
@@ -35,5 +34,3 @@ class Tab : public QObject
 
   public slots:
 };
-
-#endif // TAB_H

@@ -1,5 +1,4 @@
-#ifndef DATEFORMATPREVIEW_H
-#define DATEFORMATPREVIEW_H
+#pragma once
 
 #include <QLabel>
 #include "global.h"
@@ -20,5 +19,3 @@ private slots:
 private:
     QString m_dateFormat;
 };
-
-#endif // DATEFORMATPREVIEW_H

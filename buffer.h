@@ -1,5 +1,4 @@
-#ifndef BUFFER_H
-#define BUFFER_H
+#pragma once
 
 #include <QList>
 #include <QObject>
@@ -47,5 +46,3 @@ class Buffer : public QObject
 	QString::iterator m_sourceiter;
 	QVector<State*> m_states;
 };
-
-#endif // BUFFER_H

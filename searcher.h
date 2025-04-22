@@ -1,7 +1,7 @@
-#ifndef SEARCHER_H
-#define SEARCHER_H
+#pragma once
 
 #include <QObject>
+#include <QString>
 
 class QRegularExpression;
 
@@ -44,5 +44,3 @@ class Searcher : public QObject
 	QString* m_source;
 	SearchStates m_states;
 };
-
-#endif // SEARCHER_H

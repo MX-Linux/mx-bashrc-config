@@ -1,5 +1,4 @@
-#ifndef ALIASTAB_H
-#define ALIASTAB_H
+#pragma once
 
 #include "aliasstream.h"
 #include "tab.h"
@@ -45,5 +44,3 @@ class AliasTab : public Tab
 	QList<Alias> m_deletedAliases;
 	QMap<QCheckBox*, Alias> m_aliasWithCheckboxes;
 };
-
-#endif // ALIASTAB_H

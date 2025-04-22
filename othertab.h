@@ -1,5 +1,4 @@
-#ifndef OTHERTAB_H
-#define OTHERTAB_H
+#pragma once
 
 namespace Ui
 {
@@ -56,5 +55,3 @@ class OtherTab : public Tab
 
 	Ui::OtherTab* ui;
 };
-
-#endif // OTHERTAB_H

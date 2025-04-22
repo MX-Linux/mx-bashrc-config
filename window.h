@@ -1,5 +1,4 @@
-#ifndef WINDOW_H
-#define WINDOW_H
+#pragma once
 
 #include <QWidget>
 /*
@@ -59,5 +58,3 @@ class Window : public QWidget
 	Ui::Window* ui;
 	TabManager m_manager;
 };
-
-#endif // WINDOW_H

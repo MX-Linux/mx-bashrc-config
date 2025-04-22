@@ -1,5 +1,4 @@
-#ifndef PROMPTTAB_H
-#define PROMPTTAB_H
+#pragma once
 
 #include "tab.h"
 #include "ui_prompttab_fix.h"
@@ -328,5 +327,3 @@ class PromptTab : public Tab
 
 QString itemToXml(CustomPromptItem* item);
 CustomPromptItem* xmlToItem(QString xml);
-
-#endif // PROMPTTAB_H

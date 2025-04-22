@@ -1,5 +1,4 @@
-#ifndef GLOBAL_H
-#define GLOBAL_H
+#pragma once
 
 #include "searcher.h"
 #include <QDebug>
@@ -74,5 +73,3 @@ struct ScopeTracker
 
 #define SCOPE_TRACKER \
 	ScopeTracker _scope_tracker { __PRETTY_FUNCTION__, false }
-
-#endif // GLOBAL_H
