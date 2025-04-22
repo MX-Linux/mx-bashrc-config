@@ -37,3 +37,5 @@ Makefile*
 # QtCtreator CMake
 CMakeLists.txt.user*
 
+# Ignore the binary
+bash-config

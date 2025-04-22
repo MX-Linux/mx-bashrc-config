@@ -8,9 +8,10 @@ ExecuteResult runCmd(QString cmd, bool interactive, bool onlyStdout)
 	SCOPE_TRACKER;
 	QEventLoop loop;
 	QProcess proc;
-	if (!onlyStdout)
-		proc.setReadChannelMode(QProcess::MergedChannels);
-	QObject::connect(&proc, QOverload<int>::of(&QProcess::finished), &loop, &QEventLoop::quit);
+	if (!onlyStdout) {
+		proc.setProcessChannelMode(QProcess::MergedChannels);
+	}
+	QObject::connect(&proc, &QProcess::finished, &loop, &QEventLoop::quit);
 	DEBUG << "Execute Statment: command: "
 		  << "/bin/bash";
 	DEBUG << "Execute Statment: args: " << (QStringList() << ((interactive) ? "-ic" : "-c") << cmd);

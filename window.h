@@ -11,8 +11,8 @@
 class Tab;
 struct BashrcSource;
 
-template <class Type>
-class QVector;
+// template <class Type>
+// class QVector;
 
 template <class Type>
 class QList;

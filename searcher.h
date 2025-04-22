@@ -4,7 +4,6 @@
 #include <QObject>
 
 class QRegularExpression;
-class QRegExp;
 
 class Searcher : public QObject
 {
@@ -32,7 +31,6 @@ class Searcher : public QObject
 	Searcher& operator=(Searcher& copy);
 	Searcher& operator=(Searcher&& move);
 	int search(const QString search, int from = 0);
-	int search(const QRegExp search, int from = 0);
 	int search(const QRegularExpression search, int from = 0);
 	int search(const QChar search, int from = 0);
 	Searcher& setSource(const QString* source);

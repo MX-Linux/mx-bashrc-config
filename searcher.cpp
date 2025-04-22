@@ -1,6 +1,5 @@
 #include "searcher.h"
 
-#include <QRegExp>
 #include <QRegularExpression>
 
 #include "buffer.h"
@@ -57,13 +56,6 @@ Searcher& Searcher::operator=(Searcher&& move)
 	move.setSource(new QString());
 	DEBUG_EXIT(Searcher::operator=);
 	return *this;
-}
-
-int Searcher::search(const QRegExp search, int from)
-{
-	DEBUG_ENTER(Searcher::search);
-	DEBUG_EXIT(Searcher::search);
-	return templateSearch(search, from);
 }
 
 int Searcher::search(const QRegularExpression search, int from)

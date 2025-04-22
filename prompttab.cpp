@@ -17,6 +17,15 @@
 #include "datetimeformatting.h"
 #include "fuzzybashstream.h"
 
+namespace v2 {
+
+CustomPromptItem::CustomPromptItem(QObject* parent)
+	: QObject(parent)
+{
+}
+
+} // namespace v2
+
 PromptTab::PromptTab()
 	: Tab("Prompt")
 {
@@ -884,7 +893,7 @@ CustomPromptItem* xmlToItem(QString xml)
 	QXmlStreamReader xmlStream{xml};
 	while (xmlStream.readNextStartElement())
 	{
-		if (xmlStream.name() == "item")
+		if (xmlStream.name() == QLatin1String("item"))
 		{
 			QString type = xmlStream.attributes().value("type").toString();
 			CustomPromptItem* obj = new CustomPromptItem{""};
@@ -899,26 +908,26 @@ CustomPromptItem* xmlToItem(QString xml)
 				while (xmlStream.readNextStartElement())
 				{
 					DEBUG << xmlStream.name();
-					if (xmlStream.name() == "itemType")
+					if (xmlStream.name() == QLatin1String("itemType"))
 					{
 						QString rawStringItemType = xmlStream.readElementText();
-						if (rawStringItemType == "workinglong")
+						if (rawStringItemType == QLatin1String("workinglong"))
 						{
 							static_cast<SpecialItem*>(obj)->setItemType(SpecialItem::Type::WorkingLong);
 						}
-						else if (rawStringItemType == "workingshort")
+						else if (rawStringItemType == QLatin1String("workingshort"))
 						{
 							static_cast<SpecialItem*>(obj)->setItemType(SpecialItem::Type::WorkingShort);
 						}
-						else if (rawStringItemType == "hostlong")
+						else if (rawStringItemType == QLatin1String("hostlong"))
 						{
 							static_cast<SpecialItem*>(obj)->setItemType(SpecialItem::Type::HostLong);
 						}
-						else if (rawStringItemType == "hostshort")
+						else if (rawStringItemType == QLatin1String("hostshort"))
 						{
 							static_cast<SpecialItem*>(obj)->setItemType(SpecialItem::Type::HostShort);
 						}
-						else if (rawStringItemType == "username")
+						else if (rawStringItemType == QLatin1String("username"))
 						{
 							static_cast<SpecialItem*>(obj)->setItemType(SpecialItem::Type::Username);
 						}
@@ -927,27 +936,27 @@ CustomPromptItem* xmlToItem(QString xml)
 							DEBUG << "rawStringItemType didn't match: " << rawStringItemType;
 						}
 					}
-					else if (xmlStream.name() == "foreground")
+					else if (xmlStream.name() == QLatin1String("foreground"))
 					{
 						bool hitRed = false, hitGreen = false, hitBlue = false, hitEnabled = false;
 						while (xmlStream.readNextStartElement())
 						{
-							if (xmlStream.name() == "red")
+							if (xmlStream.name() == QLatin1String("red"))
 							{
 								foreground.setRed(xmlStream.readElementText().toInt());
 								hitRed = true;
 							}
-							else if (xmlStream.name() == "green")
+							else if (xmlStream.name() == QLatin1String("green"))
 							{
 								foreground.setGreen(xmlStream.readElementText().toInt());
 								hitGreen = true;
 							}
-							else if (xmlStream.name() == "blue")
+							else if (xmlStream.name() == QLatin1String("blue"))
 							{
 								foreground.setBlue(xmlStream.readElementText().toInt());
 								hitBlue = true;
 							}
-							else if (xmlStream.name() == "enabled")
+							else if (xmlStream.name() == QLatin1String("enabled"))
 							{
 								foregroundEnabled = xmlStream.readElementText() == "true";
 								hitEnabled = true;
@@ -960,27 +969,27 @@ CustomPromptItem* xmlToItem(QString xml)
 						if (hitRed && hitGreen && hitBlue && hitEnabled)
 							break;
 					}
-					else if (xmlStream.name() == "background")
+					else if (xmlStream.name() == QLatin1String("background"))
 					{
 						bool hitRed = false, hitGreen = false, hitBlue = false, hitEnabled = false;
 						while (xmlStream.readNextStartElement())
 						{
-							if (xmlStream.name() == "red")
+							if (xmlStream.name() == QLatin1String("red"))
 							{
 								background.setRed(xmlStream.readElementText().toInt());
 								hitRed = true;
 							}
-							else if (xmlStream.name() == "green")
+							else if (xmlStream.name() == QLatin1String("green"))
 							{
 								background.setGreen(xmlStream.readElementText().toInt());
 								hitGreen = true;
 							}
-							else if (xmlStream.name() == "blue")
+							else if (xmlStream.name() == QLatin1String("blue"))
 							{
 								background.setBlue(xmlStream.readElementText().toInt());
 								hitBlue = true;
 							}
-							else if (xmlStream.name() == "enabled")
+							else if (xmlStream.name() == QLatin1String("enabled"))
 							{
 								backgroundEnabled = xmlStream.readElementText() == "true";
 								hitEnabled = true;
@@ -993,7 +1002,7 @@ CustomPromptItem* xmlToItem(QString xml)
 						if (hitRed && hitGreen && hitBlue && hitEnabled)
 							break;
 					}
-					else if (xmlStream.name() == "bold")
+					else if (xmlStream.name() == QLatin1String("bold"))
 					{
 						QString raw = xmlStream.readElementText();
 						DEBUG << "raw: " << raw;
@@ -1020,32 +1029,32 @@ CustomPromptItem* xmlToItem(QString xml)
 				while (xmlStream.readNextStartElement())
 				{
 					QString name = xmlStream.name().toString();
-					if (name == "text")
+					if (name == QLatin1String("text"))
 					{
 						static_cast<TextItem*>(obj)->setPropertyText(xmlStream.readElementText());
 					}
-					else if (name == "foreground")
+					else if (name == QLatin1String("foreground"))
 					{
 						bool hitRed = false, hitGreen = false, hitBlue = false, hitEnabled = false;
 						while (xmlStream.readNextStartElement())
 						{
 							name = xmlStream.name().toString();
-							if (name == "red")
+							if (name == QLatin1String("red"))
 							{
 								foreground.setRed(xmlStream.readElementText().toInt());
 								hitRed = true;
 							}
-							else if (name == "green")
+							else if (name == QLatin1String("green"))
 							{
 								foreground.setGreen(xmlStream.readElementText().toInt());
 								hitGreen = true;
 							}
-							else if (name == "blue")
+							else if (name == QLatin1String("blue"))
 							{
 								foreground.setBlue(xmlStream.readElementText().toInt());
 								hitBlue = true;
 							}
-							else if (name == "enabled")
+							else if (name == QLatin1String("enabled"))
 							{
 								foregroundEnabled = xmlStream.readElementText() == "true";
 								hitEnabled = true;
@@ -1058,28 +1067,28 @@ CustomPromptItem* xmlToItem(QString xml)
 							}
 						}
 					}
-					else if (name == "background")
+					else if (name == QLatin1String("background"))
 					{
 						bool hitRed = false, hitGreen = false, hitBlue = false, hitEnabled = false;
 						while (xmlStream.readNextStartElement())
 						{
 							name = xmlStream.name().toString();
-							if (name == "red")
+							if (name == QLatin1String("red"))
 							{
 								background.setRed(xmlStream.readElementText().toInt());
 								hitRed = true;
 							}
-							else if (name == "green")
+							else if (name == QLatin1String("green"))
 							{
 								background.setGreen(xmlStream.readElementText().toInt());
 								hitGreen = true;
 							}
-							else if (name == "blue")
+							else if (name == QLatin1String("blue"))
 							{
 								background.setBlue(xmlStream.readElementText().toInt());
 								hitBlue = true;
 							}
-							else if (name == "enabled")
+							else if (name == QLatin1String("enabled"))
 							{
 								backgroundEnabled = xmlStream.readElementText() == "true";
 								hitEnabled = true;
@@ -1092,7 +1101,7 @@ CustomPromptItem* xmlToItem(QString xml)
 							}
 						}
 					}
-					else if (name == "bold")
+					else if (name == QLatin1String("bold"))
 					{
 						QString raw = xmlStream.readElementText();
 						DEBUG << "raw: " << raw;

@@ -4,6 +4,8 @@
 #include <QDebug>
 #include <QList>
 #include <QString>
+#include <QVariant>
+
 #include <memory>
 
 class FuzzyBashStream

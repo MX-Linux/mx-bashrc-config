@@ -170,8 +170,12 @@ BashrcSource AliasTab::exec(const BashrcSource data)
 	allAliases.append(bashrcAliasesAliasStream.get());
 	allAliases.append(programAliasStream.get());
 
-	allAliases.erase(std::remove_if(allAliases.begin(), allAliases.end(), [addedAliases](Alias alias) {
-		return addedAliases.contains(alias);
+	allAliases.erase(std::remove_if(allAliases.begin(), allAliases.end(), [&addedAliases](const Alias& alias) {
+		for (int i = 0; i < addedAliases.size(); ++i) {
+			if (addedAliases[i] == alias)
+				return true;
+		}
+		return false;
 	}),
 		allAliases.end());
 
