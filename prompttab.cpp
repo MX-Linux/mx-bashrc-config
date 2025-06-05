@@ -196,7 +196,7 @@ void PromptTab::setup(const BashrcSource& data)
 	{
 		DEBUG << "Selected Fancy Prompt Prompt Provider";
 		ui->comboBox_SelectPromptProvider->setCurrentText("Fancy Prompt");
-		program.append("source /usr/local/bin/fancy-prompt.bash\n");
+		program.append("source /usr/bin/fancy-prompt.bash\n");
 		ui->stackedWidget->setCurrentIndex(0);
 
         // Can assume that this will work because of previous check
@@ -320,7 +320,7 @@ BashrcSource PromptTab::exec(const BashrcSource& data)
 
 	if (ui->comboBox_SelectPromptProvider->currentText() == "Fancy Prompt")
 	{
-		promptCommand.append("source /usr/local/bin/fancy-prompts.bash");
+		promptCommand.append("source /usr/bin/fancy-prompts.bash");
 		promptCommand.append("\nprompt-");
 		promptCommand.append(ui->comboBox_SelectFancyPrompt->currentText().toLower());
 		promptCommand.append(' ');
