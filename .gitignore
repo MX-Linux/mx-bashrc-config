@@ -39,3 +39,7 @@ CMakeLists.txt.user*
 
 # Ignore the binary
 bash-config
+
+# Ignore AI agents
+AGENTS.md
+CLAUDE.md
