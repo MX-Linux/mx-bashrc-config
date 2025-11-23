@@ -154,7 +154,13 @@ void AliasStream::remove(const Alias& alias)
     auto a = *iter;
     auto t = a.token();
     AliasTokenData data = t.data().value<AliasTokenData>();
-    if(data.standalone)
+    // Wipe the alias definition token so the entry disappears from the source.
+    t.setContent("");
+    if(data.spaceToken.isValid())
+        data.spaceToken.setContent("");
+    // If the alias statement only contained this alias, drop the leading 'alias'
+    // token as well to avoid leaving an empty command.
+    if(data.standalone && data.aliasCommandToken.isValid())
         data.aliasCommandToken.setContent("");
     *m_source = parser.source();
 }
