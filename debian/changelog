@@ -1,8 +1,9 @@
 bash-config (25.12.01mx25) mx; urgency=medium
 
   * fix alias removal
+  * update translations
 
- -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 03 Dec 2025 19:01:26 -0500
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Wed, 03 Dec 2025 19:05:10 -0500
 
 bash-config (25.06.01mx25) mx; urgency=medium
 
